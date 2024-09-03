@@ -8,7 +8,6 @@ This is a starter template for a Node.js backend project using the Express.js fr
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Linting](#linting)
 - [Contributing](#contributing)
 
 ## Getting Started
@@ -56,7 +55,7 @@ To start the server in development mode with hot reloading:
 
 ```bash
 npm run dev
-
+```
 
 ## Contributing
 
