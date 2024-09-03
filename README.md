@@ -56,3 +56,8 @@ To start the server in development mode with hot reloading:
 
 ```bash
 npm run dev
+
+
+## Contributing
+
+Feel free to contribute to this project by submitting pull requests or reporting issues.
