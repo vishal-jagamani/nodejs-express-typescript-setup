@@ -29,7 +29,7 @@ Follow these steps to get the project up and running on your local machine:
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/your-username/NodeJS_with_Express_TS_Setup.git
+    git clone https://github.com/vishal-jagamani/nodejs-express-typescript-setup.git
     ```
 
 2. **Change to the project directory:**
