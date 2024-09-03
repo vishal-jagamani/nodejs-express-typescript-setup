@@ -35,7 +35,7 @@ Follow these steps to get the project up and running on your local machine:
 2. **Change to the project directory:**
 
     ```bash
-    cd NodeJS_with_Express_TS_Setup
+    cd nodejs-express-typescript-setup
     ```
 
 3. **Install the project dependencies:**
