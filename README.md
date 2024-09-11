@@ -54,7 +54,7 @@ Follow these steps to get the project up and running on your local machine:
 To start the server in development mode with hot reloading:
 
 ```bash
-npm run dev
+npm start
 ```
 
 ## Contributing
