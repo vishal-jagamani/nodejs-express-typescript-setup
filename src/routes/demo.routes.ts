@@ -1,14 +1,14 @@
-import { Request, Response, Router } from 'express';
+import { NextFunction, Request, Response, Router } from 'express';
 import { getCatFact } from '../services/demo.service.js';
 
 const router = Router();
 
-router.get('/catFact', async (req: Request, res: Response) => {
+router.get('/catFact', async (req: Request, res: Response, next: NextFunction) => {
     try {
         const response = await getCatFact();
         res.status(200).send(response);
     } catch (err) {
-        res.status(500).send(err);
+        next(err);
     }
 });
 
