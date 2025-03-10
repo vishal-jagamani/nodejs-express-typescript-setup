@@ -2,7 +2,6 @@
 
 A minimal and scalable **Node.js backend starter** built with **Express**, **TypeScript**, **ESLint**, and **Prettier**. Perfect for kickstarting RESTful API projects with **best practices**, **clean code**, and **developer productivity** in mind.
 
----
 
 ## 📚 Table of Contents
 
@@ -16,7 +15,6 @@ A minimal and scalable **Node.js backend starter** built with **Express**, **Typ
 - [📝 License](#-license)
 - [👤 Author](#-author)
 
----
 
 ## ✨ Features
 
@@ -29,7 +27,6 @@ A minimal and scalable **Node.js backend starter** built with **Express**, **Typ
 ✅ **Axios** included for HTTP requests  
 ✅ Minimal and scalable project structure
 
----
 
 ## 🛠️ Prerequisites
 
@@ -39,7 +36,6 @@ Make sure you have the following installed before you begin:
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
 - [Git](https://git-scm.com/)
 
----
 
 ## ⚙️ Installation
 
@@ -64,7 +60,6 @@ npm run build
 
 ```
 
----
 
 ## 🚀 Usage
 Start the server after building
@@ -78,7 +73,6 @@ npm run dev
 
 ```
 
----
 
 ## 📂 Project Structure
 ```bash
@@ -182,7 +176,7 @@ export default tseslint.config(eslint.configs.recommended, tseslint.configs.reco
 }
 ```
 
----
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
@@ -225,13 +219,12 @@ Feel free to [open an issue](https://github.com/vishal-jagamani/nodejs-express-t
 
     Go to your forked repository on GitHub and click "Compare & pull request".
 
----
 
 ## 📝 License
 This project is licensed under the ISC License.
 
 
----
+
 ## 👤 Author
 
 **Vishal Jagamani**
