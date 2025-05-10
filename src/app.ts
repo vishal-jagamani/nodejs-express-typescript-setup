@@ -15,12 +15,18 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded requests
 app.use(express.static(join(__dirname, '/'))); // Serve static files from the '/' directory
 
 import { PORT } from './config/config.js';
-import { errorHandler } from './middlewares/error.handler.js';
+import { apiErrorHandler, errorHandler } from './middlewares/error.handler.js';
 
 // Test endpoint
 app.get('/testEndpoint', (req: Request, res: Response) => {
     res.send('NodeJS with express in typescript test endpoint');
 });
+
+// Import index route
+import indexRoutes from './routes/index.routes.js';
+
+// Use index route
+app.use('/', indexRoutes);
 
 // Middleware to handle 404 errors
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -36,6 +42,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 // Common error handling middleware
+app.use(apiErrorHandler);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
