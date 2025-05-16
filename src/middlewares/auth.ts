@@ -19,6 +19,4 @@ const auth = (req: Request, res: Response, next: NextFunction) => {
     }
 };
 
-export const authMiddleware = () => {
-    return ENABLE_AUTH === 'true' ? auth : noAuth;
-};
+export const authMiddleware = () => (ENABLE_AUTH ? auth : noAuth);
